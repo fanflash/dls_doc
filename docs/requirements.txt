@@ -4,7 +4,7 @@
 #
 #    pip-compile docs/requirements.in
 #
-setuptools==70.1.0
+setuptools==70.3.0
 click==8.1.3
     # via mkdocs
 ghp-import==2.1.0
