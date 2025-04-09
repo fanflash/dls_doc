@@ -14,12 +14,17 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+from recommonmark.parser import CommonMarkParser
+source_parsers = {'.md': CommonMarkParser}
+source_suffix = ['.rst', '.md']
+extensions = ['recommonmark']
+
 
 # -- Project information -----------------------------------------------------
 
-project = "Basic Sphinx Example Project"
-copyright = "2022, Read the Docs core team"
-author = "Read the Docs core team"
+project = "How to play DLS"
+copyright = "我爱烤鱼"
+author = "我爱烤鱼"
 
 
 # -- General configuration ---------------------------------------------------
